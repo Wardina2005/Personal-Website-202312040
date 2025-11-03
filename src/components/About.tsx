@@ -1,17 +1,32 @@
 export default function About() {
 	return (
 		<section id="about" className="space-y-6">
-			<h3 className="text-sm uppercase tracking-wider font-medium text-zinc-500 dark:text-zinc-300">About</h3>
-			<p className="text-zinc-800 dark:text-zinc-200">
-				Ruben Amorim adalah pelatih sepak bola asal Portugal yang kini menukangi Manchester United.
-				Dikenal dengan filosofi permainan menyerang dan pressing intensitas tinggi, Amorim membawa pendekatan taktik modern
-				yang berakar dari pengalamannya bersama Sporting CP. Ia menekankan kerja sama tim, disiplin posisi,
-				serta pengembangan pemain muda dalam setiap proyeknya.
+			{/* Judul Section */}
+			<h3 className="text-sm uppercase tracking-wider font-semibold text-zinc-700 dark:text-zinc-100">
+				About
+			</h3>
+
+			{/* Paragraf 1 */}
+			<p className="text-sm text-zinc-600 dark:text-zinc-200 leading-relaxed">
+				Saya adalah seorang mahasiswa{" "}
+				<span className="font-medium text-zinc-700 dark:text-zinc-100">
+					STITEK Bontang
+				</span>{" "}
+				jurusan Teknik Informatika yang saat ini sedang mendalami mata kuliah{" "}
+				<span className="font-medium text-zinc-700 dark:text-zinc-100">
+					Pemrograman Berbasis Framework
+				</span>
+				. Fokus utama saya adalah memahami konsep pengembangan aplikasi modern, termasuk penggunaan framework
+				frontend maupun backend, sekaligus menerapkan praktik terbaik dalam penulisan kode yang bersih, efisien,
+				dan terstruktur.
 			</p>
-			<p className="text-zinc-800 dark:text-zinc-200">
-				Saat ini, Amorim fokus membangun kembali identitas permainan Manchester United dengan gaya dinamis,
-				cepat dalam transisi, dan berorientasi pada penguasaan bola. Tujuannya jelas mengembalikan kejayaan klub
-				di panggung domestik maupun Eropa.
+
+			{/* Paragraf 2 */}
+			<p className="text-sm text-zinc-600 dark:text-zinc-200 leading-relaxed">
+				Melalui mata kuliah ini, saya terus mengembangkan kemampuan dalam membangun proyek web dinamis,
+				mempelajari arsitektur aplikasi, serta meningkatkan pemahaman tentang pengelolaan komponen, routing, dan
+				integrasi API. Tujuan saya adalah menjadi pengembang yang kompeten dan mampu menghasilkan aplikasi yang
+				fungsional, responsif, dan dapat diandalkan.
 			</p>
 		</section>
 	);
